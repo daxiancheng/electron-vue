@@ -135,6 +135,7 @@ export default {
         this.masktitle = info.title;
         this.maskdate = info.date;
         this.masktodo = "";
+        this.holidayDate = ""
         console.log("bgColor", this.bgColor);
         this.wsColor && this.wsColor.updateColor(this.bgColor);
       });
